@@ -1,0 +1,63 @@
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+  margin-bottom: 60px;
+}
+.cont-header{
+  background-color: rgb(58, 56, 56);
+}
+.App {
+  text-align: center;
+}
+.dog-logo{
+  height: 80px;
+  
+}
+.Ruedadog{
+  height: 120px 80px;
+  cursor: pointer;
+  align-items: center;
+  justify-content:center;
+}
+.App-logo {
+  height: 90px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.contClicked{
+  width: 350px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
