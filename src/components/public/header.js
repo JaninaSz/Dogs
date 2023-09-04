@@ -15,7 +15,7 @@ export const Header = () => {
                     className="dog-logo"
                     height="10"
                     src="dogLog.png"
-                    alt="Dog Log"
+                    alt="Dog Loggg"
                   />
                 </span>
               </a>
